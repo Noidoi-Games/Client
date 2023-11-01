@@ -6,7 +6,7 @@ public class IdAndPass {
     HashMap<String, String> loginInfo = new HashMap<String, String>();
 
     IdAndPass(){
-        loginInfo.put("Deez", "Nuts");
+        loginInfo.put("a", "b");
     }
 
     protected HashMap getLoginInfo(){

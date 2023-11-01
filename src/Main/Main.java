@@ -5,6 +5,7 @@ public class Main {
 
         IdAndPass idAndPass = new IdAndPass();
 
-        LoginPage loginPage = new LoginPage(idAndPass.getLoginInfo());
+        //LoginPage loginPage = new LoginPage(idAndPass.getLoginInfo());
+        ClientPage clientPage = new ClientPage();
     }
 }
